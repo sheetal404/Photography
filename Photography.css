@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    height: 36px;
+    line-height: 28px;
+    background-color: #000;
+    font-size: 13px;
+    font-family:'Roboto Condensed', sans-serif ;
+}
+li{
+    float: left;
+    border: 1px solid black;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+a{
+    display: block;
+    padding: 0 28px;
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #156112;
+}
+.active a{
+    background-color: #156ee2;
+}
+body{
+    background-color:#eeeeee;
+    /* margin: 0 20%; */
+    font-family: 'Roboto Condensed', sans-serif;
+}  
+.home{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    
+}
+.home-left{
+    margin: 0 3rem;
+}
+.home-title{
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+}
+.home-tag{
+    color: #888888;
+    font-size: 1rem;
+    font-weight: 100rem;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.home-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+.home-btn{
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid #888888;
+    border-radius: 50px;
+    padding: 1rem 3rem;
+}
+.about-us{
+    background-color: #156ee2;
+    height:30vh;
+    
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FEFBF3;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family:'Roboto Condensed', sans-serif ;
+    padding:1rem ;
+    
+}
+.ab{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.our-services{
+    background-color: #FFC069;
+    height: 30vh;
+}
+.our-services-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FEFBF3;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family:'Roboto Condensed', sans-serif ;
+    padding:1rem ;
+}
+.our-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin:auto;
+}
+.our-work{
+    height: 100vh;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 4rem;
+}
+.heading > p{
+    border-left: .5px dashed #fff ;
+    border-right: .5px dashed #fff ;
+    padding: 0 1rem;
+
+}
+.frame1-image{
+    object-fit: cover;
+    width: 100%;
+    height: 35rem;
+}
+.img-dec{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 1.5rem 0;
+}
+.dec-heading{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-bottom: 1.5rem;
+}
+.dec-tag{
+    font-size: 1rem;
+}
+.footer{
+    background-color:#CEE5D0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-heading{
+    font-size: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+}
+.footer-tag1{
+    font-weight: 100;
+    padding-bottom: 1rem;
+}
+.email{
+    padding-bottom: 1rem;
+}
+
+
